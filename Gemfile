@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 # authentification
 #gem 'pundit'
+gem 'faker'
 gem 'rails'
 gem 'puma'
 gem 'sass-rails'
