@@ -1,13 +1,10 @@
-<div class="wrapper">
-	<div class="container">
+<div class="wrapper" style="display:flex">
 
-		<div class="row">
-			<div class="col-lg-offset-2 col-lg-2">
-
+			<div class="left" style="width:30vw; height:600px; overflow: scroll">
 				<table class="table table-striped">
 					<tr>
 
-						<th>Email object</th>
+						<th>Object</th>
 
 					</tr>
 
@@ -26,11 +23,11 @@
 
 			</div>
 
-			<div class="col-lg-6">
+			<div class="right" style="width:70vw; height:600px">
 				<table class="table table-striped">
 					<tr>
 
-						<th>content</th>
+						<th>Content</th>
 
 					</tr>
 				</table>
@@ -43,7 +40,7 @@
 						<p><%= email.body %></p>
 
 						<%= link_to email, remote: true, method: :delete, class: 'delete_email' , data: { confirm: 'Are you sure?' } do %>
-						<button>Delete!</button>
+						<button>Delete</button>
 						<% end %>
 
 					</div>
@@ -51,6 +48,4 @@
 				<% end %>
 
 			</div>
-		</div>
-	</div>
 </div>

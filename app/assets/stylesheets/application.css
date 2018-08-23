@@ -13,18 +13,23 @@
  *= require_tree .
  *= require_self
  */
-#wrapper {
-	background-color: red;
+.wrapper {
+	background-color: #FCFAF7;
+	padding: 100px;
+    width: 100vw;
+    height: 100vh;
 }
 
 
 
 .read {
-	background-color: whitesmoke;
+	background-color: white;
+	border-top: 1px black;
 }
 
 .read a{
-	color: grey;
+	background-color: #0069D9;
+	color: white;
 }
 
 .ur {
