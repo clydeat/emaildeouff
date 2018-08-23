@@ -1,2 +1,23 @@
 <h1>Email#index</h1>
 <p>Find me in app/views/email/index.html.erb</p>
+
+<div class="wrapper" style=display:flex>
+ 
+  <div class="left" style=width:30vw; height:100vh; overflow: scroll >
+	<% @emails.each do |email| %>
+	<h2> <%= email.object %> </h2>
+	<p> <%= email.body %> </p>
+	end
+  </div>
+</div>
+
+<div class="right" style=width:70vw; height:100vh >
+<!-- /*  LE MAIL SELECTIONNE*/ -->
+
+	<h2> <%= email.object %> </h2>
+	<p> <%= @email.body %> </p>
+	<%= link_to "destroy", email_path(email) 
+	method: :destroy,
+	data: { confirm: "Are you sure?" } %>
+
+</div>
