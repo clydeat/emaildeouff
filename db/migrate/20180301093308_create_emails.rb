@@ -1,8 +1,9 @@
-class CreateEmails < ActiveRecord::Migration[5.2]
+class CreateEmails < ActiveRecord::Migration[5.1]
   def change
     create_table :emails do |t|
       t.string :object
-      t.string :body
+      t.text :body
+      t.boolean :read
 
       t.timestamps
     end

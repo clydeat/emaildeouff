@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+
+.read {
+	background-color: whitesmoke;
+}
+
+.read a{
+	color: grey;
+}
+
+.ur {
+	background-color: oldlace;
+}
+
+.ur a {
+	color: black;
+	font-weight: bold;
+}
+
+#box{
+	text-align: center;
+}
+
+#delete_email {
+	background-color: red;
+}
+
+/* bootstrap overwrite :) */
+table a:not(.btn), .table a:not(.btn){
+	text-decoration: none;
+}
