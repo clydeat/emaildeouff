@@ -1,4 +1,4 @@
-# Mail viewer
+# Email app
 
 [Heroku app here](https://emaildeouff.herokuapp.com/)
 
