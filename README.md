@@ -1,7 +1,12 @@
-# Mail viewer
+# Email app
 
-[Heroku app here](https://peaceful-falls-25485.herokuapp.com/)
+[Heroku app here](https://emaildeouff.herokuapp.com/)
 
-ask me on slack if you need me to re set new mails :)
+Cliques sur le lien heroku
+ou 
+clone le repos
+bundle install
+rails db:create db:migrate db:seed
+and enjoy
 
-read some mails :3
+:)
