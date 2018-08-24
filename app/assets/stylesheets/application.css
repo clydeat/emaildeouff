@@ -20,10 +20,18 @@
 */
 
 .bg1 {
-  background: no-repeat center/100% url(/assets/cover.jpg);
-  background-color: #FCFAF7 !important;
+/*  background: no-repeat center/100% url(/assets/cover.jpg);
+  background-color: #E7F4F8 !important;
   background-size: cover;
-  height: 100vh;
+  height: 100vh;*/
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d9edf2+0,f7fbfc+11,e3fcea+29,d9edf2+42,f7fbfc+66,add9e4+100 */
+background: #d9edf2; /* Old browsers */
+background: -moz-linear-gradient(45deg, #d9edf2 0%, #f7fbfc 11%, #e3fcea 29%, #d9edf2 42%, #f7fbfc 66%, #add9e4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #d9edf2 0%,#f7fbfc 11%,#e3fcea 29%,#d9edf2 42%,#f7fbfc 66%,#add9e4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #d9edf2 0%,#f7fbfc 11%,#e3fcea 29%,#d9edf2 42%,#f7fbfc 66%,#add9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9edf2', endColorstr='#add9e4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 .wrapper {
 	/*background-color: #FCFAF7;*/
@@ -35,7 +43,6 @@
 th {
     height: 60px;
     background-color: #F8F5F2;
-	border: 1px solid black;
 }
 #position {
     position: fixed;
