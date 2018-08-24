@@ -71,10 +71,16 @@ td {
 	text-align: center;
 }
 
-#delete_email {
-	background-color: red;
+.delete_email {
+	color: black;
 }
-
+.delete_email:hover {
+	color: #0069D9;
+}
+.moche {
+	background-color: #D5EEF4;
+	border: none;
+}
 /* bootstrap overwrite :) */
 table a:not(.btn), .table a:not(.btn){
 	text-decoration: none;
