@@ -13,27 +13,45 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background: no-repeat center/100% url('cover.jpg');
+  background-size: cover;
+}
 .wrapper {
-	background-color: #FCFAF7;
+	/*background-color: #FCFAF7;*/
 	padding: 100px;
     width: 100vw;
     height: 100vh;
 }
 
-
-
-.read {
-	background-color: white;
-	border-top: 1px black;
+th {
+    height: 60px;
+    background-color: #F8F5F2;
+	border: 1px solid black;
+}
+#position {
+    position: fixed;
+    width: 26vw;
+}
+tr {
+    height: 60px;
+    background-color: #0069D9;
 }
 
-.read a{
+.read {
 	background-color: #0069D9;
+	border-top: 1px black;
 	color: white;
 }
 
+.read a{	
+	color: white;
+	text-decoration: none;
+}
+
 .ur {
-	background-color: oldlace;
+	background-color: white;
+	color: black;
 }
 
 .ur a {
@@ -52,4 +70,8 @@
 /* bootstrap overwrite :) */
 table a:not(.btn), .table a:not(.btn){
 	text-decoration: none;
+}
+
+.emailcontent {
+	padding: 100px;
 }

@@ -4,18 +4,19 @@
 				<table class="table table-striped">
 					<tr>
 
-						<th>Object</th>
+						<th id="position">Object</th>
 
 					</tr>
 
 					<% @emails.each do |email| %>
 
 					<tr>
-						<% if email.read == true %>
+<!-- 						<% if email.read == true %>
 						<td id="object_<%= email.id %>" class="read" ><%= link_to email.object, email_path(email), remote: true %></td>
 						<% else %>
 						<td id="object_<%= email.id %>" class="ur" ><%= link_to email.object, email_path(email), remote: true %></td>
-						<% end %>
+						<% end %> -->
+<td id="object_<%= email.id %>" class="ur" ><%= link_to email.object, email_path(email), remote: true %></td>
 
 					</tr>
 					<% end %>
@@ -23,7 +24,7 @@
 
 			</div>
 
-			<div class="right" style="width:70vw; height:600px">
+			<div class="right" style="width:70vw; height:600px;background-color:white;">
 				<table class="table table-striped">
 					<tr>
 
