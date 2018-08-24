@@ -14,9 +14,10 @@
  *= require_self
  */
 body {
-  background: no-repeat center/100% url(/assets/cover.jpg);
-  background-size: cover;
-}
+/*  background: no-repeat center/100% url(/assets/cover.jpg);
+*/  background-color: #3E7D8E;
+/*  background-size: cover;
+*/}
 .wrapper {
 	/*background-color: #FCFAF7;*/
 	padding: 100px;
