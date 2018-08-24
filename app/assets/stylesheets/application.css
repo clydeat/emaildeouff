@@ -14,7 +14,7 @@
  *= require_self
  */
 body {
-  background: no-repeat center/100% url('cover.jpg');
+  background: no-repeat center/100% url('/assets/cover.jpg');
   background-size: cover;
 }
 .wrapper {
