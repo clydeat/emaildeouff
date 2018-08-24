@@ -13,11 +13,18 @@
  *= require_tree .
  *= require_self
  */
-body {
+/*body {
 	background: no-repeat center/100% url(/assets/cover.jpg);
 /*	background-color: #D5EEF4;
 *//*  background-size: cover;
-*/}
+*/
+
+.bg1 {
+  background: no-repeat center/100% url(/assets/cover.jpg);
+  background-color: black !important;
+  background-size: cover;
+  height: 100vh;
+}
 .wrapper {
 	/*background-color: #FCFAF7;*/
 	padding: 100px;
