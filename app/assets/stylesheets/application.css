@@ -38,6 +38,9 @@ tr {
     height: 60px;
     background-color: #0069D9;
 }
+td {
+    padding-left: 50px;
+}
 
 .read {
 	background-color: #0069D9;
@@ -53,11 +56,15 @@ tr {
 .ur {
 	background-color: white;
 	color: black;
+    padding-left: 50px;
+
 }
 
 .ur a {
 	color: black;
 	font-weight: bold;
+	    padding-left: 15px;
+
 }
 
 #box{
