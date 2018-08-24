@@ -17,7 +17,7 @@
 						<% else %>
 						<td id="object_<%= email.id %>" class="ur" ><%= link_to email.object, email_path(email), remote: true %></td>
 						<% end %> -->
-<td id="object_<%= email.id %>" class="ur" ><%= link_to email.object, email_path(email), remote: true %></td>
+<td id="object_<%= email.id %>" class="ur" style="border-bottom: 1px solid #F8F5F2;" ><%= link_to email.object, email_path(email), remote: true %></td>
 
 					</tr>
 					<% end %>
